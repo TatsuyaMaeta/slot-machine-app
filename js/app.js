@@ -178,7 +178,8 @@ function TMamSlot() {
                 this.d[1] == this.d[2] ||
                 this.d[0] == this.d[2]
             ) {
-                this.result.innerHTML = "おしい";
+                Swal.fire("おしい！", "もう一度挑戦しよう！", "success");
+                // this.result.innerHTML = "おしい";
             } else {
                 // this.result.innerHTML = "はずれ";
                 Swal.fire({

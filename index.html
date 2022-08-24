@@ -18,47 +18,53 @@
     <body>
         <!-- HTMLの記述場所 START -->
         <h1>STARTER KIT</h1>
-        <div class="floorImage">
-            <img src="./img/background.jpg" alt="" class="bgi" />
-            <img src="./img/slot.png" alt="" class="slotImg" />
-            <canvas id="slotcan"></canvas>
+        <div class="wrp">
+            <div class="floorImage">
+                <div class="imgWrp">
+                    <img src="./img/background.jpg" alt="" class="bgi" />
+                </div>
 
-            <div class="controlMenu">
-                <div
-                    style="
-                        display: flex;
-                        flex-wrap: wrap;
-                        width: 100%;
-                        max-width: 600px;
-                    "
-                >
-                    <div class="stopBtn">
-                        <a class="slotButton" id="stop1">Stop</a>
+                <img src="./img/slot.png" alt="" class="slotImg" />
+                <canvas id="slotcan"></canvas>
+
+                <div class="controlMenu">
+                    <div class="stopBtnsWrapper">
+                        <div class="stopBtn">
+                            <a class="slotButton" id="stop1">Stop</a>
+                        </div>
+                        <div class="stopBtn">
+                            <a class="slotButton" id="stop2">Stop</a>
+                        </div>
+                        <div class="stopBtn">
+                            <a class="slotButton" id="stop3">Stop</a>
+                        </div>
                     </div>
-                    <div class="stopBtn">
-                        <a class="slotButton" id="stop2">Stop</a>
+                    <div
+                        style="
+                            width: 100%;
+                            max-width: 360px;
+                            text-align: center;
+                        "
+                    >
+                        <a class="slotButton slotStart" id="start">Start</a>
                     </div>
-                    <div class="stopBtn">
-                        <a class="slotButton" id="stop3">Stop</a>
-                    </div>
+                    <div
+                        id="slotresult"
+                        style="
+                            width: 100%;
+                            max-width: 360px;
+                            font-size: 32px;
+                            color: red;
+                            font-weight: bold;
+                        "
+                    ></div>
                 </div>
-                <div style="width: 100%; max-width: 360px; text-align: center">
-                    <a class="slotButton slotStart" id="start">Start</a>
-                </div>
-                <div
-                    id="slotresult"
-                    style="
-                        width: 100%;
-                        max-width: 360px;
-                        font-size: 32px;
-                        color: red;
-                        font-weight: bold;
-                    "
-                ></div>
             </div>
         </div>
+
         <!-- HTMLの記述場所 END -->
-        　<script src="./js/app.js"></script>
+        　
+        <script src="./js/app.js"></script>
         <script src="./js/weather.js"></script>
     </body>
 </html>

@@ -1,37 +1,46 @@
 .floorImage {
-    width: 100%;
+    height: 600px;
     position: relative;
 }
 
 .floorImage .bgi {
-    width: 100%; /* 適当な幅を指定 */
-    position: absolute; /* 相対位置に指定 */
+    width: 780px; /* 適当な幅を指定 */
+    /* position: absolute; 相対位置に指定 */
 }
 
 .floorImage .slotImg {
-    width: 60%; /* 適当な幅を指定 */
+    width: 470px; /* 適当な幅を指定 */
     position: absolute; /* 相対位置に指定 */
     top: 25px;
-    left: 23%;
+    left: 33%;
 }
 
 .floorImage #slotcan {
     width: 100px; /* 適当な幅を指定 */
     position: absolute; /* 相対位置に指定 */
     top: 193px;
-    left: 26.5%;
+    left: 35.7%;
 }
 .controlMenu {
     position: absolute;
     top: 445px;
-    left: 27%;
-    width: 45%;
+    left: 35.7%;
+    width: 380px;
 }
 
 /* ボタン周り */
 
 .stopBtn {
-    width: 33%;
+    width: 32%;
     text-align: center;
     padding-bottom: 118px;
+}
+
+.stopBtnsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgWrp {
+    text-align: center;
 }
