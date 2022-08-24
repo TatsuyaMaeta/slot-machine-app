@@ -1,0 +1,37 @@
+.floorImage {
+    width: 100%;
+    position: relative;
+}
+
+.floorImage .bgi {
+    width: 100%; /* 適当な幅を指定 */
+    position: absolute; /* 相対位置に指定 */
+}
+
+.floorImage .slotImg {
+    width: 60%; /* 適当な幅を指定 */
+    position: absolute; /* 相対位置に指定 */
+    top: 25px;
+    left: 23%;
+}
+
+.floorImage #slotcan {
+    width: 100px; /* 適当な幅を指定 */
+    position: absolute; /* 相対位置に指定 */
+    top: 193px;
+    left: 26.5%;
+}
+.controlMenu {
+    position: absolute;
+    top: 445px;
+    left: 27%;
+    width: 45%;
+}
+
+/* ボタン周り */
+
+.stopBtn {
+    width: 33%;
+    text-align: center;
+    padding-bottom: 118px;
+}
